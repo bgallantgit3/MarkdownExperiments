@@ -54,7 +54,7 @@ This first section describes how to install and start IDM for the first time.
 
 #### Download, unzip, and start IDM
 
-![](IDM400B_01_01_BasicProvisioning/image4.png)
+![LucidChart](LucidChartsTest1.png)
 
 Note:
 
@@ -78,7 +78,7 @@ Note that the platform must be a supported Operating System and already have Jav
 
 #### Download, unzip, and start IDM (TEST 2)
 
-![](IDM400B_01_01_BasicProvisioning/image4a.png)
+![LucidChart](LucidChartsTest1.png)
 
 Note:
 
@@ -102,7 +102,7 @@ Note that the platform must be a supported Operating System and already have Jav
 
 #### Download, unzip, and start IDM (TEST 3)
 
-![](IDM400B_01_01_BasicProvisioning/image4b.png)
+![LucidChart](LucidChartsTest1.png)
 
 Note:
 
@@ -126,6 +126,8 @@ Note that the platform must be a supported Operating System and already have Jav
 
 #### Review the IDM root directory structure
 
+Some JavaScript to: show:
+
 ```javascript
 ./openidm
 audit/          <--audit logs
@@ -144,11 +146,17 @@ samples/        <--sample configurations
 script/         <--custom script files
 ```
 
-----
+Note:
+
+Notes to go along with this.
+
+---
 
 #### Continued
 
-```shell
+This should be the next slide to display more:
+
+```sh
 security/
 shutdown.sh
 startup.bat
@@ -165,7 +173,9 @@ The slide shows the folders below the `openidm` folder where IDM is installed. T
 
 #### View the Felix console at startup
 
-```shell
+Here is some shell output:
+
+```sh
 $ ./startup.sh
 Executing ./startup.sh...
 Using OPENIDM_HOME:   /opt/projects/openidm
@@ -214,7 +224,7 @@ The example shows the URL using the host and domain name of the server. You can 
 
 #### Log in to the Admin UI as the administrator user and view the Reconciliation Dashboard
 
-![Picture Here](IDM400B_01_01_BasicProvisioning/image8.png)
+![LucidChart](LucidChartsTest1.png)
 
 Note:
 
@@ -232,7 +242,7 @@ The first section contains a Quick Start set of options that allow the administr
 
 #### View the Last Reconciliation and System Health sections in the Admin UI Dashboard
 
-![Picture Here](IDM400B_01_01_BasicProvisioning/image9.png)
+![LucidChart](LucidChartsTest1.png)
 
 Note:
 
@@ -241,126 +251,6 @@ If you scroll down from the Reconciliation Dashboard, the next two default secti
 Reconciliation is basically the *process* that initiates identity synchronization between an external resource and IDM. You first define a connector and how it communicates with an external resource and then define a synchronization mapping or rules between the connector and IDM to tell IDM how and when to synchronize data.
 
 The System Health section contains a set of widgets to give you a visual indication of how much CPU and memory are used by IDM.
-
----
-
-#### View the Resources section in the Admin UI Dashboard
-
-![](IDM400B_01_01_BasicProvisioning/image10.png)
-
-Note:
-
-The Resources section of the Dashboard shows the administrator the list of Connectors, Mappings, and Managed Objects configured within IDM. These are the three main configurations needed when setting up user provisioning between external resources and IDM:
-
-- Connectors are how IDM communicates to the external resources where identity data exists.
-- Mappings are how IDM defines what, how, where, and when to provision identity data from the external resources.
-- Managed Objects are the identity objects managed in IDM. For example, the user managed object is for managing user-related identities. Managed Objects are stored in the local IDM repository.
-
-Note that three Managed Objects (user, role, and assignment) ship standard with IDM. This first lab focuses on provisioning users and the user managed object. Note that you are not restricted to managing only user objects. You can manage other objects such as devices and things by adding new managed objects.
-
----
-
-#### View the configuration options in the Admin UI
-
-![](IDM400B_01_01_BasicProvisioning/image11.png)
-
-Note:
-
-The IDM administrator can manage the Dashboard and can also manage the configuration of IDM through the CONFIGURE menu option.
-
-Note that the Dashboard configuration options are not covered in this course. Please read the *ForgeRock Identity Management Integrator's Guide* for more information on how you can configure the Dashboard.
-
-There are several configuration options that will be covered throughout this course; however, the two main configuration options that are key to basic user provisioning are the CONNECTORS and MAPPINGS option. As mentioned in previous slides, the administrator must first configure the connectors that connect to the external resources that contain identity data that you want to manage in IDM and the synchronization mappings between the connector and IDM that define how and when to synchronize data.
-
-In this first lesson, you will run two of the samples included with IDM that already have the connectors and mappings pre-configured. These samples allow you to quickly test IDM without having to perform the actual configuration. The following lessons describe how to actually configure the connectors and mappings in detail.
-
----
-
-#### Manage users from the User list as the administrator
-
-![](IDM400B_01_01_BasicProvisioning/image12.png)
-
-Note:
-
-The administrator can also manage the different objects that are defined in IDM from the MANAGE menu option. For example, the administrator can manage users from the User list page. From this page you can view, add, delete, and edit users that are stored in the IDM repository.
-
-Notice that when you first install IDM, there are no end users defined in the IDM repository. Please note that the administrator user, `openidm-admin`, is considered an internal user and not a regular end user, therefore, does not show up in the User list.
-
----
-
-#### Self-Service UI Dashboard for end users
-
-![](IDM400B_01_01_BasicProvisioning/image13.png)
-
-Note:
-
-The IDM administrator or any user added to the IDM repository can log in to the Self-Service UI as long as a password is set on the account, the correct authorization is set on the account, and the account is active. The user also has a Dashboard page that shows tasks, processes, and notifications for the user. The user can also view their profile and update their password, if necessary.
-
-Note that tasks, processes, and notifications are related to workflow and will be described in the Workflow Engine chapter.
-
----
-
-#### View the Felix console at shut down
-
-![](IDM400B_01_01_BasicProvisioning/image14.png)
-
-Note:
-
-The administrator can shut down the IDM instance from the Felix console where the instance was started. Note that IDM can also be started outside the Felix console as a process in Linux or a service in Windows. There is a `shutdown.sh` or `shutdown.bat` script in the main project folder that you can use to shut down IDM.
-
----
-
-### Start IDM with a sample configuration and run the sample
-
-This section describes how you can start IDM using the samples shipped with IDM.
-
----
-
-#### Basic User Provisioning using the XML sample
-
-![test picture](IDM400B_01_01_BasicProvisioning/image16.png)
-
-Note:
-
-In the first lab you perform basic user provisioning using the XML and LDAP sample configurations shipped with IDM. The slide shows the basic configuration for the XML sample.
-
-Basically you have an external resource, XML in this example, that contains identity data that you want to provision into the IDM repository so that you can manage the identity from IDM. For example, you might want to provision that identity from IDM to other external resources besides the XML resource.
-
-Basic provisioning involves three basic steps:
-
-1. Adding a connector configuration between IDM and the external resource that defines how IDM communicates to the external resource.
-2. Adding a sync mapping from the source to the target that defines what identity objects and attributes to provision (reconcile) from the source to the target.
-3. Running reconciliation and synchronization to initiate provisioning.
-
-The IDM sample configuration includes a connector configuration that tells IDM how to communicate with the XML external resource. The sample configuration also includes a *synchronization mapping* or *sync mapping* that defines the synchronization parameters between the source XML file and the target managed user in the IDM repository.
-
-The XML sample external resource contains two user entries for the `bjensen` and `scarter` users. When a reconcile action is run, either from the Admin UI or using the REST interface of IDM, the two users are provisioned into the IDM repository using the connector and sync mapping configuration.
-
----
-
-#### Review the IDM sample configuration folders
-
-![](IDM400B_01_01_BasicProvisioning/image17.png)
-
-The `openidm` folder contains everything needed to run inside of a JVM on the local operating system.
-
-The slide shows the `samples` folders that you will work with for this class.
-
-As described in the previous lesson, the `samples` folder contains all of the shipping sample configurations included with IDM. In the lab, you will use both `sample1` and `sample2b` to test basic user provisioning.
-
----
-
-#### Review the IDM sample 1 configuration folder
-
-![](IDM400B_01_01_BasicProvisioning/image18.png)
-
-Note:
-
-The slide shows the subfolders and files relevant to the sample 1 configuration.
-
-The `conf/` and `script/` folders contain the IDM configuration that will be used at startup instead of those same named folders found directly under the `openidm` folder.
-
-The `data/` folder contains the XML schema files needed as part of the XML connector configuration and the XML file that contains the sample data (for example, `bjensen` and `scarter`).
 
 ---
 
