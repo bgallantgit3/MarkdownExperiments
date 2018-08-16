@@ -17,9 +17,9 @@ Added a second H1 header to see what happens:
     
     Sample output:
     
-    ```
+    ```sh
     output goes here
-     output goes here
-      output goes here
-      ```
+    output goes here
+    output goes here
+    ```
 3. Another step.
