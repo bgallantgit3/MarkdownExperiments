@@ -1,7 +1,7 @@
 # Markdown Experiments
 
 Expermiment using different Markdown tools and GitHub.
-- GitHub page: <https://bgallantgit3.github.io>
+- GitHub page: <https://bgallantgit3.github.io/MarkdownExperiments/>
 - GitPitch is from: <https://gitpitch.com/>
 - To launch from GitPitch: <https://gitpitch.com/bgallantgit3/MarkdownExperiments/master>
 
