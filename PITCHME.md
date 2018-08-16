@@ -7,7 +7,6 @@
 > The main goal of this lesson is to introduce IDM and describe how you can quickly perform basic user provisioning between an external resource and IDM using the samples that ship with IDM.
 
 Notes:
-
 The lesson introduces basic concepts around IDM user provisioning and how you can easily download, install, and run IDM to demonstrate basic user provisioning. In this lesson, you learn IDM concepts such as installing and running IDM, logging in to the administrative and end user interfaces, and provisioning accounts from an external resource into the IDM repository using connectors, mappings, and managed user objects.
 
 ---
