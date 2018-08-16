@@ -146,7 +146,7 @@ script/         <--custom script files
 
 ----
 
-###### Continued
+#### Continued
 
 ```shell
 security/
@@ -197,7 +197,9 @@ Note:
 
 After installation, the default user who is authorized to administer IDM is the `openidm-admin` user. The default password for the user is the same as the username.
 
-IDM includes two user interfaces:
+---
+
+#### IDM includes two user interfaces:
 
 - Self-Service UI for regular users
 - Admin UI for administrators
@@ -206,13 +208,13 @@ Note:
 
 The slide illustrates that the login page for both the Self-Service UI and Admin UI look identical; however, the URL's to access the interfaces are different. The Self-Service UI is for all authorized users accessing IDM. The Admin UI is specific for IDM administrators.
 
-Note that the example shows the URL using the host and domain name of the server. You can also use `localhost` when working on the same server; however, it is best to try and use the proper name that you will be using when testing.
+The example shows the URL using the host and domain name of the server. You can also use `localhost` when working on the same server; however, it is best to try and use the proper name that you will be using when testing.
 
 ---
 
 #### Log in to the Admin UI as the administrator user and view the Reconciliation Dashboard
 
-![](IDM400B_01_01_BasicProvisioning/image8.png)
+![Picture Here](IDM400B_01_01_BasicProvisioning/image8.png)
 
 Note:
 
@@ -230,7 +232,7 @@ The first section contains a Quick Start set of options that allow the administr
 
 #### View the Last Reconciliation and System Health sections in the Admin UI Dashboard
 
-![](IDM400B_01_01_BasicProvisioning/image9.png)
+![Picture Here](IDM400B_01_01_BasicProvisioning/image9.png)
 
 Note:
 
@@ -316,7 +318,7 @@ This section describes how you can start IDM using the samples shipped with IDM.
 
 #### Basic User Provisioning using the XML sample
 
-![](IDM400B_01_01_BasicProvisioning/image16.png)
+![test picture](IDM400B_01_01_BasicProvisioning/image16.png)
 
 Note:
 
@@ -334,6 +336,8 @@ The IDM sample configuration includes a connector configuration that tells IDM h
 
 The XML sample external resource contains two user entries for the `bjensen` and `scarter` users. When a reconcile action is run, either from the Admin UI or using the REST interface of IDM, the two users are provisioned into the IDM repository using the connector and sync mapping configuration.
 
+---
+
 #### Review the IDM sample configuration folders
 
 ![](IDM400B_01_01_BasicProvisioning/image17.png)
@@ -344,150 +348,19 @@ The slide shows the `samples` folders that you will work with for this class.
 
 As described in the previous lesson, the `samples` folder contains all of the shipping sample configurations included with IDM. In the lab, you will use both `sample1` and `sample2b` to test basic user provisioning.
 
+---
+
 #### Review the IDM sample 1 configuration folder
 
 ![](IDM400B_01_01_BasicProvisioning/image18.png)
+
+Note:
 
 The slide shows the subfolders and files relevant to the sample 1 configuration.
 
 The `conf/` and `script/` folders contain the IDM configuration that will be used at startup instead of those same named folders found directly under the `openidm` folder.
 
 The `data/` folder contains the XML schema files needed as part of the XML connector configuration and the XML file that contains the sample data (for example, `bjensen` and `scarter`).
-
-#### View the Felix console at startup
-
-![](IDM400B_01_01_BasicProvisioning/image19.png)
-
-The slide shows an example of starting IDM with one of the sample configurations.
-
-The `-p` option specifies the *project* location that contains the necessary configuration and scripts to start and run IDM. This includes the `conf/` and `script/` folders. Other folders within the project location support the configuration files. For example, the `data/` folder contains the files necessary for the connector configuration files found in the `conf/` folder.
-
-The output shows the project starting start messages. You should get an `-> OpenIDM ready` response if IDM boots correctly. The terminal window remains at the Felix console prompt `->` until the IDM instance is shut down from the console.
-
-#### The Admin UI Dashboard Resources section
-
-![](IDM400B_01_01_BasicProvisioning/image20.png)
-
-The Dashboard Resources section contains a list of connectors, mappings, and managed objects all key to provisioning identities in IDM.
-
-Connectors are the communication paths to the external resources that contain identity data. You must add a connector configuration for each external resource where you want to retrieve or provision identity data. The slide shows what the Resources section would look like after loading the XML sample.
-
-For each connector, you will have one or more mappings that define the identity object type (user in this example) and attributes (or properties) of that object type that you want to synchronize between the external resource and IDM. The slide shows a single mapping from the source XML external resource (`systemXmlfileAccounts`) to the target IDM repository (`managedUser`). The object type is an *account* in this example, which are user accounts on the XML resource which map to user objects in the repository.
-
-The third resource shown in the slide example are Managed Objects. Managed Objects are the types of identity objects that IDM can manage. The object type is user in both the XML and LDAP samples that you will be testing in the lab. However, you can add different types of objects that you want to manage in IDM.
-
----
-
-#### Run reconciliation to provision users
-
-![](IDM400B_01_01_BasicProvisioning/image21.png)
-
-Note:
-
-Because the sample(s) already contains the necessary connector and sync mapping configurations, you simply need to run reconciliation on the mapping to provision the sample users.
-
-The slide shows the XML sample mapping from the object type (account) on the XML resource to the managed user object in the IDM repository. Selecting Reconcile Now will provision the two sample users from the XML resource to the IDM repository based on the sync mapping configuration, which you will examine more thoroughly in the lab and later in the lesson.
-
-#### View the managed users in the Admin UI
-
-![](IDM400B_01_01_BasicProvisioning/image21.png)
-
-You can view the provisioned users from the User List. In the Admin UI, select Manage and then User from the main menu to go to the User List page. The User List page displays all users that are in the repository, including those provisioned from the XML external resource.
-
-In the slide example, the User List displays the two users, `bjensen` and `scarter` that are provisioned from the XML external resource.
-
-#### View a specific user and Linked Systems tab
-
-![](IDM400B_01_01_BasicProvisioning/image22.png)
-
-As administrator in the Admin UI, you can view details and other information about a specific user. The slide shows an example of the Linked Systems tab for the `bjensen` user. The Linked Systems tab shows you the properties and values retrieved from the XML connector configuration for the sample XML file.
-
-Note that other tabs are described in different portions of the course.
-
----
-
-### Start IDM with the LDAP sample configuration and run the sample
-
-This section describes running the LDAP sample.
-
----
-
-#### Basic User Provisioning using the LDAP sample
-
-![](IDM400B_01_01_BasicProvisioning/image25.png)
-
-The LDAP sample, shipped with IDM, uses an external LDAP directory server for an external resource instead of XML, therefore, the lab setup requires not only IDM, but access to an LDAP directory server. In the lab you will install and use ForgeRock Directory Service (DS) as the LDAP directory server and load the directory with sample data provided with the sample shipped with IDM.
-
-The sample contains a connector configuration to communicate with the LDAP directory server and two sync mappings that allow provisioning in both directions between IDM and the LDAP directory server. Users can be provisioned from LDAP into IDM and users added to IDM can be provisioned into LDAP.
-
-Note that any user that is added or created in the IDM repository is automatically synchronized to any external resource where a sync mapping between the source IDM repository and the target external resource exists.
-
-#### Review the IDM sample 2b configuration folder
-
-![](IDM400B_01_01_BasicProvisioning/image27.png)
-
-The slide shows the subfolders and files relevant to the sample 2b configuration. You will use `sample2b` to test with an external LDAP directory running OpenDJ.
-
-The `conf/` and `script/` folders contain the IDM configuration that will be used at startup instead of those same named folders found directly under the `openidm` folder.
-
-The `conf/` folder contains two specific configurations that are unique to `sample2b`:
-
-- `provisioniner.openicf-ldap.json` contains the connector configuration specific for communicating with the external LDAP resource.
-- `sync.json` contains the synchronization mappings between the connector and IDM. This file defines how identities are mapped from one resource to another.
-
-The `data/` folder for `sample2b` contains an LDIF file that you must import into the external LDAP resource before you run the sample. The LDIF file contains the sample data referenced by the sample in the documentation.
-
-To use the sample, use the `-p` option with the relative path to the `sample2b` folder where the configuration and scripts are to start the sample.
-
-#### View the Resources section of the Dashboard
-
-![](IDM400B_01_01_BasicProvisioning/image28.png)
-
-The Resource section of the Admin UI Dashboard for the administrator user now displays the configuration picked up with the `-p samples/sample2b` option of the `startup` command. The configuration includes a connector configuration to communicate to the LDAP directory server and two mappings that define which object types and object properties to map from the source to the target. The source and target in this example, is both ways between the LDAP directory server and the IDM repository. The object type in this example is `account` on the LDAP directory server and managed user in the IDM repository (although not clearly shown on the slide example).
-
-#### Verify the connector in the Admin UI
-
-![](IDM400B_01_01_BasicProvisioning/image29.png)
-
-The Admin UI has a convenient way to view the connector status and validate that the connector can communicate with the external resource. From the Connectors page, there is a vertical ellipsis where you can select the data object type supported by the connector to view actual data returned by the connector from the external resource.
-
-The small screenshot on the slide is where you first select the vertical ellipsis and object type. Notice on the small screenshot that the status of the connector is Active. This is a good indication that the connector can successfully communicate with the external resource. The second larger screenshot shows the accounts returned from the connector in the UI.
-
-Note that this method of viewing actual connector data in the UI does not always work for every type of connector.
-
----
-
-#### Mappings for the LDAP sample
-
-![](IDM400B_01_01_BasicProvisioning/image29.png)
-
-Note:
-
-The Mappings page of the Admin UI shows the mappings between the source and targets. In this example, there are two mappings between the accounts object type on the external resource and the managed user in the IDM repository.
-
-You need to run reconciliation on the external resource to IDM mapping to provision users to the IDM repository; however, users added to the repository, for example, through the Admin UI, are automatically provisioned to the external resource because of implicit sync.
-
-Note that the administrator can force a reconciliation from the managed user to external resource at any time.
-
----
-
-#### Lab exercises
-
-Perform the following exercises in the Student Workbook:
-
-1. Install and start IDM for the first time.
-2. Start IDM with the XML sample configuration.
-3. Start IDM with the LDAP sample configuration.
-
-   Approximate time for the lab is 45 minutes.
-
-   All exercises are done in the `/opt/projects` folder.
-
-Note:
-
-It is highly recommended that you take a break from the lecture and perform the lab exercises, especially if you have never installed or ran IDM in the past.
-
-Note that all of the exercises for this lab are done in the `/opt/projects` folder. This folder will be used to test all IDM samples throughout the course. In other labs, you install IDM (and sometimes DS) into a new folder to separate your work. Installing IDM (and sometimes DS) into other folders lets you keep your work separate so you can always reference work done in the testing samples folder and not mix your work with your *development* test environment.
 
 ---
 
