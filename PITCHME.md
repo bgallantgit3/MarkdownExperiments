@@ -157,7 +157,7 @@ ui/
 workflow/       <--custom workflows
 ```
 
-Notes:
+Note:
 
 The slide shows the folders below the `openidm` folder where IDM is installed. The subfolders highlighted represent the folders that administrators interact with on a regular basis.
 
@@ -179,7 +179,7 @@ OpenIDM version "5.0.0" (revision: e6689a6) jenkins-OpenIDM – Release (5.x)-14
 ->
 ```
 
-Notes:
+Note:
 
 The slide shows an example of starting IDM with one of the sample configurations:
 
@@ -193,7 +193,7 @@ The output shows the project starting start messages. You should get an `-> Open
 
 ![](IDM400B_01_01_BasicProvisioning/image7.png)
 
-Notes:
+Note:
 
 After installation, the default user who is authorized to administer IDM is the `openidm-admin` user. The default password for the user is the same as the username.
 
@@ -202,7 +202,7 @@ IDM includes two user interfaces:
 - Self-Service UI for regular users
 - Admin UI for administrators
 
-Notes:
+Note:
 
 The slide illustrates that the login page for both the Self-Service UI and Admin UI look identical; however, the URL's to access the interfaces are different. The Self-Service UI is for all authorized users accessing IDM. The Admin UI is specific for IDM administrators.
 
@@ -214,7 +214,7 @@ Note that the example shows the URL using the host and domain name of the server
 
 ![](IDM400B_01_01_BasicProvisioning/image8.png)
 
-Notes:
+Note:
 
 The slide shows a screenshot of what the IDM administrator would see when they first log in to the Admin UI.
 
@@ -232,7 +232,7 @@ The first section contains a Quick Start set of options that allow the administr
 
 ![](IDM400B_01_01_BasicProvisioning/image9.png)
 
-Notes:
+Note:
 
 If you scroll down from the Reconciliation Dashboard, the next two default sections of the Dashboard include information about the last reconciliation to occur, which in this case is empty because there are no connectors and mappings defined to synchronize identity data, and the system health.
 
@@ -246,7 +246,7 @@ The System Health section contains a set of widgets to give you a visual indicat
 
 ![](IDM400B_01_01_BasicProvisioning/image10.png)
 
-Notes:
+Note:
 
 The Resources section of the Dashboard shows the administrator the list of Connectors, Mappings, and Managed Objects configured within IDM. These are the three main configurations needed when setting up user provisioning between external resources and IDM:
 
@@ -262,7 +262,7 @@ Note that three Managed Objects (user, role, and assignment) ship standard with 
 
 ![](IDM400B_01_01_BasicProvisioning/image11.png)
 
-Notes:
+Note:
 
 The IDM administrator can manage the Dashboard and can also manage the configuration of IDM through the CONFIGURE menu option.
 
@@ -278,7 +278,7 @@ In this first lesson, you will run two of the samples included with IDM that alr
 
 ![](IDM400B_01_01_BasicProvisioning/image12.png)
 
-Notes:
+Note:
 
 The administrator can also manage the different objects that are defined in IDM from the MANAGE menu option. For example, the administrator can manage users from the User list page. From this page you can view, add, delete, and edit users that are stored in the IDM repository.
 
@@ -290,7 +290,7 @@ Notice that when you first install IDM, there are no end users defined in the ID
 
 ![](IDM400B_01_01_BasicProvisioning/image13.png)
 
-Notes:
+Note:
 
 The IDM administrator or any user added to the IDM repository can log in to the Self-Service UI as long as a password is set on the account, the correct authorization is set on the account, and the account is active. The user also has a Dashboard page that shows tasks, processes, and notifications for the user. The user can also view their profile and update their password, if necessary.
 
@@ -302,7 +302,7 @@ Note that tasks, processes, and notifications are related to workflow and will b
 
 ![](IDM400B_01_01_BasicProvisioning/image14.png)
 
-Notes:
+Note:
 
 The administrator can shut down the IDM instance from the Felix console where the instance was started. Note that IDM can also be started outside the Felix console as a process in Linux or a service in Windows. There is a `shutdown.sh` or `shutdown.bat` script in the main project folder that you can use to shut down IDM.
 
@@ -318,7 +318,7 @@ This section describes how you can start IDM using the samples shipped with IDM.
 
 ![](IDM400B_01_01_BasicProvisioning/image16.png)
 
-Notes:
+Note:
 
 In the first lab you perform basic user provisioning using the XML and LDAP sample configurations shipped with IDM. The slide shows the basic configuration for the XML sample.
 
@@ -382,7 +382,7 @@ The third resource shown in the slide example are Managed Objects. Managed Objec
 
 ![](IDM400B_01_01_BasicProvisioning/image21.png)
 
-Notes:
+Note:
 
 Because the sample(s) already contains the necessary connector and sync mapping configurations, you simply need to run reconciliation on the mapping to provision the sample users.
 
@@ -461,7 +461,7 @@ Note that this method of viewing actual connector data in the UI does not always
 
 ![](IDM400B_01_01_BasicProvisioning/image29.png)
 
-Notes:
+Note:
 
 The Mappings page of the Admin UI shows the mappings between the source and targets. In this example, there are two mappings between the accounts object type on the external resource and the managed user in the IDM repository.
 
@@ -483,7 +483,7 @@ Perform the following exercises in the Student Workbook:
 
    All exercises are done in the `/opt/projects` folder.
 
-Notes:
+Note:
 
 It is highly recommended that you take a break from the lecture and perform the lab exercises, especially if you have never installed or ran IDM in the past.
 
