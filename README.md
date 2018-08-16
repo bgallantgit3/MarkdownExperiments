@@ -12,9 +12,14 @@ Expermiment using different Markdown tools and GitHub.
 Added a second H1 header to see what happens:
 1. Test something
 2. Enter the following command:
+   
     `$` **`cd /opt/projects`**
+    
+    Sample output:
+    
     ```
     output goes here
      output goes here
       output goes here
       ```
+3. Another step.
