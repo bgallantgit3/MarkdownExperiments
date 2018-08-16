@@ -6,7 +6,8 @@
 
 > The main goal of this lesson is to introduce IDM and describe how you can quickly perform basic user provisioning between an external resource and IDM using the samples that ship with IDM.
 
-Notes:
+Note:
+
 The lesson introduces basic concepts around IDM user provisioning and how you can easily download, install, and run IDM to demonstrate basic user provisioning. In this lesson, you learn IDM concepts such as installing and running IDM, logging in to the administrative and end user interfaces, and provisioning accounts from an external resource into the IDM repository using connectors, mappings, and managed user objects.
 
 ---
@@ -55,7 +56,7 @@ This first section describes how to install and start IDM for the first time.
 
 ![](IDM400B_01_01_BasicProvisioning/image4.png)
 
-Notes:
+Note:
 
 Installing IDM simply involves downloading the software zip file and unzipping the file to an empty folder.
 
@@ -79,7 +80,7 @@ Note that the platform must be a supported Operating System and already have Jav
 
 ![](IDM400B_01_01_BasicProvisioning/image4a.png)
 
-Notes:
+Note:
 
 Installing IDM simply involves downloading the software zip file and unzipping the file to an empty folder.
 
@@ -103,7 +104,7 @@ Note that the platform must be a supported Operating System and already have Jav
 
 ![](IDM400B_01_01_BasicProvisioning/image4b.png)
 
-Notes:
+Note:
 
 Installing IDM simply involves downloading the software zip file and unzipping the file to an empty folder.
 
