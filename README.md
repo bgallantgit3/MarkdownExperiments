@@ -7,7 +7,7 @@ Expermiment using different Markdown tools and GitHub.
 
     An interesting approach for displaying reveal.js slides without having to have all the reveal.js dependencies included with your presentation.
 
-# What Happens With Another Header?
+## What Happens With Another Header?
 
 Added a second H1 header to see what happens:
 1. Test something
