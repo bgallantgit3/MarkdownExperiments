@@ -19,6 +19,13 @@ Upon completion of this lesson, you should be able to:
 - Install and start IDM for the first time
 - Start IDM with the XML sample configuration and run the sample
 - Start IDM with the LDAP sample configuration and run the sample
+- A new section goes here
+
+---
+
+### A New slide
+
+> my quote
 
 ---
 
