@@ -21,6 +21,15 @@ Upon completion of this lesson, you should be able to:
 - Start IDM with the LDAP sample configuration and run the sample
 - A new section goes here
 
+Note:
+
+Some notes here for the slide with **Markdown** `code` stuff added _too_:
+
+1. Step one
+2. Step two
+    - one
+    - two
+
 ---
 
 ### A New slide
