@@ -1,8 +1,10 @@
 ## Deploying and Starting a Workflow
 
-![fit](IDM400B_07_01_UsingWorkflows/image1.png)
+![](IDM400B_07_01_UsingWorkflows/fr-logo-title-page.png)
 
-Notes:
+Lesson 1: Deploying and Starting a Workflow
+
+Note:
 
 This first lesson describes why you might want to use workflows as part of your ForgeRock&reg; Identity Management (IDM) solution, explains how IDM includes the Activiti workflow engine, and then shows how to deploy workflows within IDM and manage those workflows from the IDM Admin UI.
 
@@ -16,7 +18,7 @@ Upon completion of this lesson, you should be able to:
 - Describe how workflows are implemented in IDM
 - Enable the workflow service in IDM and examine a sample workflow
 
-Notes:
+Note:
 
 The slide lists the objectives for this lesson.
 
@@ -30,7 +32,7 @@ Upon completion of this lesson, you should be able to:
 - Describe how workflows are implemented in IDM
 - Enable the workflow service in IDM and examine a sample workflow
 
-Notes:
+Note:
 
 The first section of this lesson describes reasons for using workflow as part of your identity management solution.
 
@@ -48,7 +50,7 @@ The first section of this lesson describes reasons for using workflow as part of
   - Approval
   - Self service requests
 
-Notes:
+Note:
 
 Some general use cases that are often used with workflows are the three life cycle stages of users in an organization:
 
@@ -71,7 +73,7 @@ Some of the actions that need to be taken care of can be rather complex and also
     - New user after creation
 
 
-Notes:
+Note:
 
 One of the FEC requirements will be to allow a subscription owner to share the subscription with a Friend or a member of the Family.
 
@@ -89,7 +91,7 @@ Some notifications will eventually need to be sent to administrators, in case so
   - New relationship with additional account owner:
     - For instance, with a premium subscription
 
-Notes:
+Note:
 
 In some other cases, it might be the family and friends user who wants to open the dialog of being connected to an owners subscription. In this case, they would already need to have an account.
 
@@ -109,7 +111,7 @@ In this case, it would be the user without their own subscription who wants to b
       - Inform user
       - Users with relationships need to be informed, too
 
-Notes:
+Note:
 
 The workflow can also be used to schedule long-term events. In this case, a workflow would be started, some logic would be executed, and then suspended for a period of time. The workflow instance would then be persisted in the repository until its time is up, and it needs to continue.
 A persisted workflow instance is simply an object in the IDM repository database. It does not occupy much of the resources while it is suspended.
@@ -130,7 +132,7 @@ Upon completion of this lesson, you should be able to:
 - **Describe how workflows are implemented in IDM**
 - Enable the workflow service in IDM and examine a sample workflow
 
-Notes:
+Note:
 
 This section describes how workflows are implemented in IDM and how to manage workflows from the IDM Admin UI.
 
@@ -141,7 +143,7 @@ This section describes how workflows are implemented in IDM and how to manage wo
 - Open source process engine
 - IDM uses OSGi version
 
-Notes:
+Note:
 
 The workflow engine that is used by IDM is based on Activiti. This is what the web page, www.activiti.org says:
 
@@ -155,7 +157,7 @@ Activiti can be downloaded as web archive or an OSGi version. IDM uses the OSGi 
 
 ![](IDM400B_07_01_UsingWorkflows/IDMintegrationWithActivitiOverview.png)
 
-Notes:
+Note:
 
 The embedded Activiti workflow and business process engine is provided as part of the standard IDM build.
 
@@ -181,7 +183,7 @@ For example:
   - Forms
   - Java code (not automatically available in the class path!)
 
-Notes:
+Note:
 
 A `.bar` file is Activitis business archive file. These files are created by using any tool that can create a zip archive file, containing several components for a business process in file format.
 
@@ -199,7 +201,7 @@ It makes sense to package Java or `.jar` files that will eventually be needed in
 - Redeploy a workflow:
   - Automatic versioning
 
-Notes:
+Note:
 
 The next few slides show how to:
 
@@ -218,7 +220,7 @@ The next few slides show how to:
   - ![](IDM400B_07_01_UsingWorkflows/workflowProcesses.png)
 - Existing instances link to the exact revision they where started from.
 
-Notes:
+Note:
 
 Activiti will automatically provide versioning during deployment `key`, `version`, `name`, and `id`:
 
@@ -235,7 +237,7 @@ New process instances will be called by the `key` attribute. Activiti will then 
 
 ![](IDM400B_07_01_UsingWorkflows/workflowProcessesCompleted.png)
 
-Notes:
+Note:
 
 The IDM Admin UI has an interface for listing completed instances with a rudimentary filtering mechanism. The filter mechanism can be extended to the needs of customers.
 
@@ -259,7 +261,7 @@ Custom queries need to be implemented by using `_queryId=filtered-query` (see th
   ![](IDM400B_07_01_UsingWorkflows/workflowDefinitions.png)
 - After a workflow is deployed to the IDM `workflow` folder, the workflow is available through Admin UI and Self-Service UI
 
-Notes:
+Note:
 
 After a workflow is deployed, it appears in the IDM Admin UI.
 
@@ -276,7 +278,7 @@ It can also be started by users in the Self-Service UI.
 
 ![](IDM400B_07_01_UsingWorkflows/visualizeWorkflowDefinitions.png)
 
-Notes:
+Note:
 
 The IDM Admin UI also has an interface that can show the BPMN diagram of a deployed workflow, if the workflow definition contains the BPMN diagram part in the XML.
 
@@ -286,7 +288,7 @@ The IDM Admin UI also has an interface that can show the BPMN diagram of a deplo
 
 ![](IDM400B_07_01_UsingWorkflows/visualizeWorkflowDefinitionActive.png)
 
-Notes:
+Note:
 
 The admin UI has an interface that can show the BPMN diagram of an active workflow instance, if the workflow definition contains the BPMN diagram part in the XML.
 
@@ -300,7 +302,7 @@ In the screen shot shown in the slide, the user task named secondForm is current
 
 ![](IDM400B_07_01_UsingWorkflows/workflowTasks.png)
 
-Notes:
+Note:
 
 All workflow instances that are waiting for some manual interaction, like an approval of a manager, will be shown under Workflow Tasks in the Admin UI. The listing shows the user tasks that are created by the workflow, the process instance from which they have been created, and who is assigned to the task.
 
@@ -319,7 +321,7 @@ From: `./samples/sync-asynchronous/conf/sync.json`
 ...
 ```
 
-Notes:
+Note:
 
 The `sync.json` file contains the situational policies for each situation. The slide illustrates the policy setting for the `ABSENT` situation. The action for the `ABSENT` situation is to run the `managedUserApproval` workflow.
 
@@ -352,7 +354,7 @@ From: `./samples/provisioning-with-workflow/conf/process-access.json
 ]
 ```
 
-Notes:
+Note:
 
 The UI in most cases is not supposed make all processes available for all users. Therefore, IDM has a configuration file, called `process-access.json`, which defines who can see and start a process.
 
@@ -370,7 +372,7 @@ This will currently only effect the UI, not the authorizations on the REST inter
 
 ![](IDM400B_07_01_UsingWorkflows/launchingWorkflow.png)
 
-Notes:
+Note:
 
 Workflow is launched by an authorized user with the correct role assignment using the Self-Service UI. The workflow process is loaded from the specified `workflow/` folder in the `conf/workflow.json` file. The workflow process shows up in the **Processes** section on the Dashboard.
 
@@ -382,7 +384,7 @@ Selecting the link displays the workflow definition form and allows the user to 
 
 ![](IDM400B_07_01_UsingWorkflows/pendingTasks.png)
 
-Notes:
+Note:
 
 The Self-Service UI is integrated with the embedded Activiti worfklow engine, enabling users to interact with workflows. Available workflows are displayed under the **Processes** section on the Dashboard. Users with the correct role assignment can view and launch workflow processes from the Dashboard. Approvers can also view the workflow task instances from the **My tasks** section on the Dashboard. Finally, users can be notified of workflow actions in the **Notifications** section on the Dashboard.
 
@@ -399,7 +401,7 @@ Upon completion of this lesson, you should be able to:
 - Describe how workflows are implemented in IDM
 - **Enable the workflow service in IDM and examine a sample workflow**
 
-Notes:
+Note:
 
 This section introduces the lab exercise associated with this lesson.
 
@@ -409,7 +411,7 @@ This section introduces the lab exercise associated with this lesson.
 
 ![](IDM400B_07_01_UsingWorkflows/enableWFsystemPreferences.png)
 
-Notes:
+Note:
 
 In the lab, you will use the Admin UI to enable the workflow service in IDM. You simply enable the option from the System Preferences page. This automatically creates the `conf/workflow.json` file in the project's configuration folder.
 
@@ -421,7 +423,7 @@ In the lab, you will use the Admin UI to enable the workflow service in IDM. You
 
 Copy sample to the project's workflow folder:  `example.bpmn20.xml`
 
-Notes:
+Note:
 
 IDM includes a couple of workflow samples. The simplest one is called the OSGi workflow process. It can be used to quickly test workflow in IDM to ensure workflow is enabled. The workflow is also easy to deploy; you simply copy the workflow from the sample folder to the project's `workflow` folder.
 
@@ -435,7 +437,7 @@ IDM includes a couple of workflow samples. The simplest one is called the OSGi w
 
 - Approximate time: 30 minutes.
 
-Notes:
+Note:
 
 The slide lists the exercises to perform in this lesson. Please see the corresponding lab in the Student Workbook.
 
