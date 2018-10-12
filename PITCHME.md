@@ -2,7 +2,7 @@
 
 Lesson 1: Deploying and Starting a Workflow
 
-Notes:
+Note:
 
 This first lesson describes why you might want to use workflows as part of your ForgeRock&reg; Identity Management (IDM) solution, explains how IDM includes the Activiti workflow engine, and then shows how to deploy workflows within IDM and manage those workflows from the IDM Admin UI.
 
@@ -16,7 +16,7 @@ Upon completion of this lesson, you should be able to:
 - Describe how workflows are implemented in IDM
 - Enable the workflow service in IDM and examine a sample workflow
 
-Notes:
+Note:
 
 The slide lists the objectives for this lesson.
 
@@ -30,7 +30,7 @@ Upon completion of this lesson, you should be able to:
 - Describe how workflows are implemented in IDM
 - Enable the workflow service in IDM and examine a sample workflow
 
-Notes:
+Note:
 
 The first section of this lesson describes reasons for using workflow as part of your identity management solution.
 
@@ -48,7 +48,7 @@ The first section of this lesson describes reasons for using workflow as part of
   - Approval
   - Self service requests
 
-Notes:
+Note:
 
 Some general use cases that are often used with workflows are the three life cycle stages of users in an organization:
 
@@ -71,7 +71,7 @@ Some of the actions that need to be taken care of can be rather complex and also
     - New user after creation
 
 
-Notes:
+Note:
 
 One of the FEC requirements will be to allow a subscription owner to share the subscription with a Friend or a member of the Family.
 
