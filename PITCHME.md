@@ -10,7 +10,8 @@ Here is an iframe:
 
 <iframe class="stretch" data-src="https://www.forgerock.com/"></iframe>
 
-Notes:
+
+Note:
 
 The idea for this slide is to embed a webpage, like documentation.
 
