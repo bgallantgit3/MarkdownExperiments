@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="-272 -91 992 826" width="992" height="826">
+  <defs>
+    <font-face font-family="Helvetica" font-size="16" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.2 
+    <dc:date>2018-10-15 15:01:07 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke-opacity="1" fill="none" stroke="none" stroke-dasharray="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_18">
+        <path d="M 149.5 -90.5 L 324.5 -90.5 C 345.2 -90.5 362 -73.7 362 -53 C 362 -32.3 345.2 -15.5 324.5 -15.5 L 149.5 -15.5 C 128.8 -15.5 112 -32.3 112 -53 C 112 -73.7 128.8 -90.5 149.5 -90.5 Z" fill="#d8fce9"/>
+        <path d="M 149.5 -90.5 L 324.5 -90.5 C 345.2 -90.5 362 -73.7 362 -53 C 362 -32.3 345.2 -15.5 324.5 -15.5 L 149.5 -15.5 C 128.8 -15.5 112 -32.3 112 -53 C 112 -73.7 128.8 -90.5 149.5 -90.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(142 -72)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="1.171875" y="15">I want to deploy a DevOps </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="63.875" y="34">Example</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <rect x="112" y="269.5" width="250" height="75" fill="#d9edf7"/>
+        <rect x="112" y="269.5" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(117 297.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="29.3125" y="15">Work with Docker images</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16">
+        <rect x="112" y="399.5" width="250" height="75" fill="#d9edf7"/>
+        <rect x="112" y="399.5" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(117 427.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="23.95703" y="15">Deploy a DevOps Example</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <path d="M 149.5 659.5 L 324.5 659.5 C 345.2 659.5 362 676.3 362 697 C 362 717.7 345.2 734.5 324.5 734.5 L 149.5 734.5 C 128.8 734.5 112 717.7 112 697 C 112 676.3 128.8 659.5 149.5 659.5 Z" fill="#d8fce9"/>
+        <path d="M 149.5 659.5 L 324.5 659.5 C 345.2 659.5 362 676.3 362 697 C 362 717.7 345.2 734.5 324.5 734.5 L 149.5 734.5 C 128.8 734.5 112 717.7 112 697 C 112 676.3 128.8 659.5 149.5 659.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(142 678)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="24.734375" y="15">I am able to use the </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="32.753906" y="34">DevOps Example</tspan>
+        </text>
+      </g>
+      <g id="Line_14">
+        <line x1="237" y1="344.5" x2="237" y2="389.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_13">
+        <path d="M 237 39.5 L 337 127 L 237 214.5 L 137 127 Z" fill="#55adad"/>
+        <path d="M 237 39.5 L 337 127 L 237 214.5 L 137 127 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(169 106.25)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="2.859375" y="15">Deploy locally or in </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="33.08203" y="34">the cloud?</tspan>
+        </text>
+      </g>
+      <g id="Line_12">
+        <line x1="237" y1="-15.5" x2="237" y2="29.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_11">
+        <rect x="469" y="91.5" width="250" height="75" fill="#d9edf7"/>
+        <rect x="469" y="91.5" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(474 119.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="8.386719" y="15">Implement a cloud environment</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <rect x="-271" y="89.5" width="250" height="75" fill="#d9edf7"/>
+        <rect x="-271" y="89.5" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-266 108)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="41.742188" y="15">Implement a Minikube </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="75.97656" y="34">environment</tspan>
+        </text>
+      </g>
+      <g id="Line_9">
+        <line x1="135" y1="128" x2="-11.100063" y2="127.48007" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_8">
+        <line x1="338" y1="127" x2="459.1003" y2="127.9461" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <rect x="36.74988" y="113.25712" width="60" height="29" fill="white"/>
+        <text transform="translate(41.74988 118.25712)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".09765625" y="15">Locally</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="353.77844" y="112.98655" width="93" height="29" fill="white"/>
+        <text transform="translate(358.77844 117.98655)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".13671875" y="15">In the cloud</tspan>
+        </text>
+      </g>
+      <g id="Line_5">
+        <path d="M -144.25781 164.5 L -144.25781 301.23047 L -144.25781 307 L 102.1 307" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_4">
+        <path d="M 593.47656 166.5 L 593.47656 309.10156 L 371.9 309.10156" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <rect x="112" y="529.5" width="250" height="75" fill="#d9edf7"/>
+        <rect x="112" y="529.5" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(117 548)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="6.171875" y="15">Verify that the DevOps Example </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="85.3125" y="34">is running</tspan>
+        </text>
+      </g>
+      <g id="Line_19">
+        <line x1="237" y1="474.5" x2="237" y2="519.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_20">
+        <line x1="237" y1="604.5" x2="237" y2="649.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

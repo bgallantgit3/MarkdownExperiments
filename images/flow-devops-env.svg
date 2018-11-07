@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="-163 -234 1316 2804" width="1316" height="2804">
+  <defs>
+    <font-face font-family="Helvetica" font-size="16" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Courier" font-size="16" units-per-em="1000" underline-position="-178.22266" underline-thickness="57.61719" slope="0" x-height="456.54297" cap-height="586.91406" ascent="753.90625" descent="-246.09375" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Courier"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.2 
+    <dc:date>2018-10-15 12:08:05 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke="none" fill="none" stroke-opacity="1" fill-opacity="1" stroke-dasharray="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_89">
+        <path d="M 411.5 -232.60606 L 586.5 -232.60606 C 607.2 -232.60606 624 -215.80606 624 -195.10606 C 624 -174.40606 607.2 -157.60606 586.5 -157.60606 L 411.5 -157.60606 C 390.8 -157.60606 374 -174.40606 374 -195.10606 C 374 -215.80606 390.8 -232.60606 411.5 -232.60606 Z" fill="#d8fce9"/>
+        <path d="M 411.5 -232.60606 L 586.5 -232.60606 C 607.2 -232.60606 624 -215.80606 624 -195.10606 C 624 -174.40606 607.2 -157.60606 586.5 -157.60606 L 411.5 -157.60606 C 390.8 -157.60606 374 -174.40606 374 -195.10606 C 374 -215.80606 390.8 -232.60606 411.5 -232.60606 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(404 -214.10606)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="1.171875" y="15">I want to deploy a DevOps </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="63.875" y="34">Example</tspan>
+        </text>
+      </g>
+      <g id="Graphic_88">
+        <rect x="902" y="517.89394" width="250" height="75" fill="#d9edf7"/>
+        <rect x="902" y="517.89394" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(907 536.39394)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="21.289062" y="15">Ask a cloud administrator to </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="38.628906" y="34">create a cluster for you</tspan>
+        </text>
+      </g>
+      <g id="Graphic_87">
+        <path d="M 729 126.64394 L 829 214.14394 L 729 301.64394 L 629 214.14394 Z" fill="#55adad"/>
+        <path d="M 729 126.64394 L 829 214.14394 L 729 301.64394 L 629 214.14394 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(661 174.39394)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="25.54297" y="15">Is third-party </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="8.191406" y="34">software installed </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="29.539062" y="53">on my local </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="32.203125" y="72">computer?</tspan>
+        </text>
+      </g>
+      <g id="Graphic_86">
+        <circle cx="499.1239" cy="2509" r="60.0000958741137" fill="#5bc0de"/>
+        <circle cx="499.1239" cy="2509" r="60.0000958741137" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(456.1239 2480.5)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="7.886719" y="15">Work with </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="17.660156" y="34">Docker </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="17.210938" y="53">images</tspan>
+        </text>
+      </g>
+      <g id="Graphic_85">
+        <rect x="-162" y="517.89394" width="250" height="75" fill="#d9edf7"/>
+        <rect x="-162" y="517.89394" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-157 536.39394)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="31.515625" y="15">Create a Minikube virtual </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="89.76172" y="34">machine</tspan>
+        </text>
+      </g>
+      <g id="Graphic_84">
+        <path d="M 499 -93.98106 L 599 -6.4810606 L 499 81.01894 L 399 -6.4810606 Z" fill="#55adad"/>
+        <path d="M 499 -93.98106 L 599 -6.4810606 L 499 81.01894 L 399 -6.4810606 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(431 -36.73106)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="33.976562" y="15">Deploy on </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="10.855469" y="34">Minikube or on a </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="15.304688" y="53">cloud platform?</tspan>
+        </text>
+      </g>
+      <g id="Graphic_83">
+        <path d="M 242 467.89394 L 342 555.39394 L 242 642.89394 L 142 555.39394 Z" fill="#55adad"/>
+        <path d="M 242 467.89394 L 342 555.39394 L 242 642.89394 L 142 555.39394 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(174 525.14394)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="22.867188" y="15">Is a Minikube </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="16.199219" y="34">virtual machine </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="5.511719" y="53">already available? </tspan>
+        </text>
+      </g>
+      <g id="Graphic_82">
+        <path d="M 242 126.64394 L 342 214.14394 L 242 301.64394 L 142 214.14394 Z" fill="#55adad"/>
+        <path d="M 242 126.64394 L 342 214.14394 L 242 301.64394 L 142 214.14394 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(174 174.39394)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="25.54297" y="15">Is third-party </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="8.191406" y="34">software installed </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="29.539062" y="53">on my local </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="32.203125" y="72">computer?</tspan>
+        </text>
+      </g>
+      <g id="Graphic_81">
+        <rect x="116.86563" y="347.26894" width="250" height="75" fill="#d9edf7"/>
+        <rect x="116.86563" y="347.26894" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(121.86563 356.26894)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="8.152344" y="15">Install Docker, </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="15">kubectl</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="15">, Helm, </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" x="15.800781" y="34">kubectx</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="34">, </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="34">kubens</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="34">, </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="34">stern</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="34">, a </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="31.066406" y="53">hypervisor, and Minikube</tspan>
+        </text>
+      </g>
+      <g id="Graphic_80">
+        <path d="M 729 467.89394 L 829 555.39394 L 729 642.89394 L 629 555.39394 Z" fill="#55adad"/>
+        <path d="M 729 467.89394 L 829 555.39394 L 729 642.89394 L 629 555.39394 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(661 525.14394)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="2.859375" y="15">Is a cluster already </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="13.957031" y="34">available on the </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="15.304688" y="53">cloud platform? </tspan>
+        </text>
+      </g>
+      <g id="Graphic_79">
+        <rect x="604" y="688.5189" width="250" height="75" fill="#d9edf7"/>
+        <rect x="604" y="688.5189" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(609 707.0189)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="7.484375" y="15">Set up a Kubernetes context for </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="83.09375" y="34">the cluster</tspan>
+        </text>
+      </g>
+      <g id="Graphic_78">
+        <rect x="604" y="808.6725" width="250" height="75" fill="#d9edf7"/>
+        <rect x="604" y="808.6725" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(609 836.6725)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="75.98047" y="15">Set up Helm</tspan>
+        </text>
+      </g>
+      <g id="Graphic_77">
+        <rect x="116.7417" y="804.3939" width="250" height="75" fill="#d9edf7"/>
+        <rect x="116.7417" y="804.3939" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(121.7417 832.3939)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="75.98047" y="15">Set up Helm</tspan>
+        </text>
+      </g>
+      <g id="Graphic_76">
+        <rect x="116.86563" y="989.22" width="250" height="75" fill="#d9edf7"/>
+        <rect x="116.86563" y="989.22" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(121.86563 1007.72)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="19.496094" y="15">Enable the Minikube ingress </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="87.09766" y="34">controller</tspan>
+        </text>
+      </g>
+      <g id="Graphic_75">
+        <path d="M 729.1239 939.22 L 829.1239 1026.72 L 729.1239 1114.22 L 629.1239 1026.72 Z" fill="#55adad"/>
+        <path d="M 729.1239 939.22 L 829.1239 1026.72 L 729.1239 1114.22 L 629.1239 1026.72 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(661.1239 986.97)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="24.64453" y="15">Is an ingress </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="8.636719" y="34">controller already </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="16.628906" y="53">available in the </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="41.98828" y="72">cluster? </tspan>
+        </text>
+      </g>
+      <g id="Graphic_74">
+        <rect x="374.1239" y="1151.2879" width="250" height="75" fill="#d9edf7"/>
+        <rect x="374.1239" y="1151.2879" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(379.1239 1179.2879)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="15.503906" y="15">Install the certificate manager</tspan>
+        </text>
+      </g>
+      <g id="Graphic_73">
+        <path d="M 499.1239 1427.6295 L 599.1239 1515.1295 L 499.1239 1602.6295 L 399.1239 1515.1295 Z" fill="#55adad"/>
+        <path d="M 499.1239 1427.6295 L 599.1239 1515.1295 L 499.1239 1602.6295 L 399.1239 1515.1295 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(431.1239 1475.3795)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="14.410156" y="15">Are you using a </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="18.425781" y="34">private Docker </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="4.652344" y="53">registry for Docker </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="39.76172" y="72">images?</tspan>
+        </text>
+      </g>
+      <g id="Graphic_72">
+        <rect x="706" y="1477.6295" width="250" height="75" fill="#d9edf7"/>
+        <rect x="706" y="1477.6295" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(711 1496.1295)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="5.707031" y="15">Create a secret and add it to the </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="38.17578" y="34">default service account  </tspan>
+        </text>
+      </g>
+      <g id="Graphic_71">
+        <path d="M 499.1239 1646.3284 L 599.1239 1733.8284 L 499.1239 1821.3284 L 399.1239 1733.8284 Z" fill="#55adad"/>
+        <path d="M 499.1239 1646.3284 L 599.1239 1733.8284 L 499.1239 1821.3284 L 399.1239 1733.8284 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(431.1239 1703.5784)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="9.074219" y="15">Is a configuration </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="6.4140625" y="34">repository already </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="33.972656" y="53">available? </tspan>
+        </text>
+      </g>
+      <g id="Graphic_70">
+        <rect x="710.1239" y="1695.1466" width="250" height="75" fill="#d9edf7"/>
+        <rect x="710.1239" y="1695.1466" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(715.1239 1723.1466)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="3.9375" y="15">Create a configuration repository</tspan>
+        </text>
+      </g>
+      <g id="Graphic_69">
+        <path d="M 499.1239 1866.3284 L 599.1239 1953.8284 L 499.1239 2041.3284 L 399.1239 1953.8284 Z" fill="#55adad"/>
+        <path d="M 499.1239 1866.3284 L 599.1239 1953.8284 L 499.1239 2041.3284 L 399.1239 1953.8284 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(431.1239 1924.4064)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="24.688" y="15">How will you </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="6.416" y="33.448">implement secure </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="white" x="10.416" y="51.895996">communication?</tspan>
+        </text>
+      </g>
+      <g id="Line_67">
+        <line x1="499" y1="-157.60606" x2="499" y2="-103.88106" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_66">
+        <path d="M 399.05534 -6.5294834 L 241 -6.6060606 L 241.56034 117.0895" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_65">
+        <path d="M 599 -6.4810606 L 729.9167 -6.4810606 L 729.9167 -5.833333 L 729.9167 117.54602" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_64">
+        <line x1="241.93114" y1="301.5837" x2="241.90296" y2="337.36894" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_63">
+        <line x1="729" y1="301.64394" x2="729" y2="341.49394" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_62">
+        <rect x="644.27274" y="-20.98106" width="52" height="29" fill="white"/>
+        <text transform="translate(649.27274 -15.98106)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".09765625" y="15">Cloud</tspan>
+        </text>
+      </g>
+      <g id="Graphic_61">
+        <rect x="281.12383" y="-20.068452" width="75" height="29" fill="white"/>
+        <text transform="translate(286.12383 -15.068452)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".484375" y="15">Minikube</tspan>
+        </text>
+      </g>
+      <g id="Graphic_60">
+        <rect x="205.42021" y="300.9461" width="31" height="29" fill="white"/>
+        <text transform="translate(210.42021 305.9461)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".2734375" y="15">No</tspan>
+        </text>
+      </g>
+      <g id="Graphic_59">
+        <rect x="734.5" y="302.4456" width="31" height="29" fill="white"/>
+        <text transform="translate(739.5 307.4456)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".2734375" y="15">No</tspan>
+        </text>
+      </g>
+      <g id="Line_58">
+        <path d="M 341.9884 214.15407 L 473.27344 214.16738 L 473.27344 557.7924 L 351.5758 557.7924" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_57">
+        <path d="M 628 213.39394 L 628 211.89785 L 517.4961 211.89785 L 517.4961 555.39394 L 619.1 555.39394" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_56">
+        <rect x="570.3666" y="197.39785" width="38" height="29" fill="white"/>
+        <text transform="translate(575.3666 202.39785)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".21484375" y="15">Yes</tspan>
+        </text>
+      </g>
+      <g id="Graphic_55">
+        <rect x="369.4834" y="199.65878" width="38" height="29" fill="white"/>
+        <text transform="translate(374.4834 204.65878)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".21484375" y="15">Yes</tspan>
+        </text>
+      </g>
+      <g id="Line_54">
+        <line x1="241.88906" y1="422.26894" x2="241.9218" y2="458.05444" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_53">
+        <path d="M 726 395.39394 L 727.5 395.39394 L 727.5 459.30644" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_52">
+        <line x1="141.01562" y1="556.2455" x2="97.89989" y2="556.03925" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_51">
+        <path d="M 241.92573 642.82895 L 241.87085 698.6439 L 241.7766 794.4939" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_50">
+        <line x1="829" y1="555.39394" x2="892.1" y2="555.39394" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_49">
+        <line x1="729" y1="642.89394" x2="729" y2="678.6189" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_48">
+        <line x1="729" y1="763.5189" x2="729" y2="798.7725" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_47">
+        <path d="M 241.86563 1064.22 L 241.86563 1188.9676 L 287.48525 1188.9676 L 364.22392 1188.8985" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_46">
+        <line x1="829.1134" y1="1026.7108" x2="892.2239" y2="1026.705" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_45">
+        <path d="M 728.1005 1113.3245 L 728.1005 1188.6922 L 634.0239 1188.7315" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_44">
+        <path d="M 1031.1298 1054.6414 L 1032.8954 1054.6414 L 1032.8954 1188.8328 L 634.0239 1188.7992" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_43">
+        <line x1="599.1239" y1="1515.1295" x2="696.1" y2="1515.1295" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_42">
+        <line x1="499.1239" y1="1602.6295" x2="499.1239" y2="1636.4284" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_41">
+        <line x1="598.72355" y1="1733.478" x2="700.224" y2="1733.121" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_40">
+        <line x1="498.1239" y1="1822.3284" x2="498.38764" y2="1857.007" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_39">
+        <line x1="599.1239" y1="1953.8284" x2="700.2239" y2="1953.8284" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_37">
+        <rect x="851.4307" y="540.89394" width="31" height="29" fill="white"/>
+        <text transform="translate(856.4307 545.89394)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".2734375" y="15">No</tspan>
+        </text>
+      </g>
+      <g id="Graphic_36">
+        <rect x="687" y="645.18294" width="38" height="29" fill="white"/>
+        <text transform="translate(692 650.18294)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".21484375" y="15">Yes</tspan>
+        </text>
+      </g>
+      <g id="Graphic_35">
+        <rect x="104.65366" y="524.6455" width="31" height="29" fill="white"/>
+        <text transform="translate(109.65366 529.6455)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".2734375" y="15">No</tspan>
+        </text>
+      </g>
+      <g id="Graphic_34">
+        <rect x="222.86563" y="689.4597" width="38" height="29" fill="white"/>
+        <text transform="translate(227.86563 694.4597)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".21484375" y="15">Yes</tspan>
+        </text>
+      </g>
+      <g id="Line_33">
+        <line x1="829.1017" y1="1026.7006" x2="892.5091" y2="1026.6882" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_32">
+        <rect x="854.8861" y="1012.1925" width="31" height="29" fill="white"/>
+        <text transform="translate(859.8861 1017.1925)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".2734375" y="15">No</tspan>
+        </text>
+      </g>
+      <g id="Graphic_31">
+        <rect x="750.1239" y="1127.796" width="38" height="29" fill="white"/>
+        <text transform="translate(755.1239 1132.796)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".21484375" y="15">Yes</tspan>
+        </text>
+      </g>
+      <g id="Graphic_30">
+        <rect x="615.8834" y="1500.6295" width="38" height="29" fill="white"/>
+        <text transform="translate(620.8834 1505.6295)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".21484375" y="15">Yes</tspan>
+        </text>
+      </g>
+      <g id="Graphic_29">
+        <rect x="459.1239" y="1594.3745" width="31" height="29" fill="white"/>
+        <text transform="translate(464.1239 1599.3745)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".2734375" y="15">No</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <rect x="633.98146" y="1718.7996" width="31" height="29" fill="white"/>
+        <text transform="translate(638.98146 1723.7996)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".2734375" y="15">No</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <rect x="449.8972" y="1821.96" width="38" height="29" fill="white"/>
+        <text transform="translate(454.8972 1826.96)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".21484375" y="15">Yes</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <rect x="613.85735" y="1900.495" width="52" height="48" fill="white"/>
+        <text transform="translate(618.85735 1905.495)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="2.7773438" y="15">Trust </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".09765625" y="34">Chain</tspan>
+        </text>
+      </g>
+      <g id="Graphic_24">
+        <rect x="604" y="351.39394" width="250" height="75" fill="#d9edf7"/>
+        <rect x="604" y="351.39394" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(609 360.39394)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="5.9296875" y="15">Install  Docker, </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="15">kubectl</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="15">, Helm, </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" x="4.6796875" y="34">kubectx</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="34">, </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="34">kubens</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="34">, </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="34">stern</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="34">,  and </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="35.960938" y="53">the cloud platform’s CLI</tspan>
+        </text>
+      </g>
+      <g id="Line_23">
+        <path d="M 831 1552.6295 L 831 1562.6087 L 831.0953 1562.6087 L 831.0953 1623.3641 L 509.0239 1623.3641" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_22">
+        <rect x="902.1239" y="989.1925" width="250" height="75" fill="#d9edf7"/>
+        <rect x="902.1239" y="989.1925" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(907.1239 1017.1925)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="20.832031" y="15">Enable an ingress controller</tspan>
+        </text>
+      </g>
+      <g id="Line_21">
+        <path d="M 830.9167 1770.1466 L 830.9167 1850.48 L 510.24005 1850.75 L 508.24005 1850.75" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_20">
+        <path d="M 1027.0562 592.89394 L 1027.1621 663.5515 L 1027.1621 664.571 L 740.9 664.571 L 738.9 664.571" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_19">
+        <path d="M -38.597656 592.89394 L -38.597656 744.9577 L -38.597656 746.8494 L 229.92234 746.8494 L 231.92234 746.8494" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <a xl:href="file:///Users/davidgoldsmith/Repositories/platform-docs/target/docbkx/backstage/devops-guide/index.html#devops-implementation-env-config-repo">
+          <rect x="374.1239" y="2323" width="250" height="75" fill="#d9edf7"/>
+          <rect x="374.1239" y="2323" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(379.1239 2351)" fill="black">
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="4.230469" y="15">Install the </tspan>
+            <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="15">frconfig</tspan>
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="15"> Helm chart  </tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Line_3">
+        <line x1="241.76685" y1="879.3939" x2="241.83385" y2="979.32" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_90">
+        <line x1="729.0257" y1="883.6725" x2="729.0571" y2="929.3725" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_98">
+        <rect x="710.1239" y="2147" width="250" height="75" fill="#d9edf7"/>
+        <rect x="710.1239" y="2147" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(715.1239 2156)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="7.9375" y="15">Copy the private key you use to </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="15.945312" y="34">access the repository into the  </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" x="40.695312" y="53">frconfig</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="53"> Helm chart</tspan>
+        </text>
+      </g>
+      <g id="Graphic_97">
+        <path d="M 499.1239 2097 L 599.1239 2184.5 L 499.1239 2272 L 399.1239 2184.5 Z" fill="#55adad"/>
+        <path d="M 499.1239 2097 L 599.1239 2184.5 L 499.1239 2272 L 399.1239 2184.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(431.1239 2144.75)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="14.410156" y="15">Are you using a </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="11.300781" y="34">read-only, public </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="24.191406" y="53">configuration </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="30.42578" y="72">repository?</tspan>
+        </text>
+      </g>
+      <g id="Graphic_92">
+        <rect x="454" y="2266" width="38" height="29" fill="white"/>
+        <text transform="translate(459 2271)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".21484375" y="15">Yes</tspan>
+        </text>
+      </g>
+      <g id="Graphic_68">
+        <a xl:href="file:///Users/davidgoldsmith/Repositories/platform-docs/target/docbkx/backstage/devops-guide/index.html#devops-implementation-env-config-repo">
+          <rect x="710.1239" y="1916.3284" width="250" height="75" fill="#d9edf7"/>
+          <rect x="710.1239" y="1916.3284" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(715.1239 1925.3284)" fill="black">
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="10.15625" y="15">Obtain a signing certificate and </tspan>
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="16.671875" y="34">add it to the </tspan>
+            <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="34">frconfig</tspan>
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="34"> Helm </tspan>
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="102.21484" y="53">chart</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Line_122">
+        <path d="M 826.3114 1991.3284 L 826.3114 2075.6518 L 826.3114 2076.9904 L 506.775 2076.9904" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_123">
+        <text transform="translate(449 2028.786)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="7.550781" y="15">Self-</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".42578125" y="34">signed</tspan>
+        </text>
+      </g>
+      <g id="Line_131">
+        <line x1="599.1239" y1="2184.5" x2="700.2239" y2="2184.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_132">
+        <rect x="627.53376" y="2170" width="31" height="29" fill="white"/>
+        <text transform="translate(632.53376 2175)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".2734375" y="15">No</tspan>
+        </text>
+      </g>
+      <g id="Graphic_133">
+        <a xl:href="file:///Users/davidgoldsmith/Repositories/platform-docs/target/docbkx/backstage/devops-guide/index.html#devops-implementation-env-config-repo">
+          <rect x="374.1239" y="1288.1254" width="250" height="75" fill="#d9edf7"/>
+          <rect x="374.1239" y="1288.1254" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(379.1239 1316.1254)" fill="black">
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="2.59375" y="15">Create a Kubernetes namespace</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Line_134">
+        <line x1="499.1239" y1="1226.2879" x2="499.1239" y2="1278.2254" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_136">
+        <line x1="499.1239" y1="1363.1254" x2="499.1239" y2="1417.7295" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_137">
+        <line x1="499.1239" y1="2041.3284" x2="499.1239" y2="2087.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_138">
+        <line x1="499.1239" y1="2272" x2="499.1239" y2="2313.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_139">
+        <line x1="499.1239" y1="2398" x2="499.1239" y2="2439.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_140">
+        <path d="M 835.1239 2222 L 835.1239 2294.5 L 509.0239 2294.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_143">
+        <a xl:href="file:///Users/davidgoldsmith/Repositories/platform-docs/target/docbkx/backstage/devops-guide/index.html#devops-implementation-env-config-repo">
+          <rect x="38.12392" y="1916.3284" width="250" height="75" fill="#d9edf7"/>
+          <rect x="38.12392" y="1916.3284" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(43.12392 1925.3284)" fill="black">
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="1.7148438" y="15">Configure the certificate manager </tspan>
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="8.835938" y="34">to obtain a certificate from Let’s </tspan>
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="31.070312" y="53">Encrypt (production only)</tspan>
+          </text>
+        </a>
+      </g>
+      <g id="Line_145">
+        <line x1="399.1239" y1="1953.8284" x2="298.02392" y2="1953.8284" marker-end="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_147">
+        <path d="M 163.12392 1991.3284 L 163.12392 2075.0938 L 489.2239 2075.0938" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_148">
+        <rect x="304.804" y="1899.6618" width="89" height="47" fill="white"/>
+        <text transform="translate(309.804 1904.7138)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.228" y="15">Dynamic</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".092" y="33.448">Generation</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

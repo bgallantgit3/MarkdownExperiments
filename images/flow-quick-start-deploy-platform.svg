@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="372.5 -106.5 253 755.875" width="253" height="755.875">
+  <defs>
+    <font-face font-family="Helvetica" font-size="16" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Courier" font-size="16" units-per-em="1000" underline-position="-178.22266" underline-thickness="57.61719" slope="0" x-height="456.54297" cap-height="586.91406" ascent="753.90625" descent="-246.09375" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Courier"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.7.1 
+    <dc:date>2018-06-13 20:13:08 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_13">
+        <circle cx="499" cy="-46" r="60.0000958741138" fill="#5bc0de"/>
+        <circle cx="499" cy="-46" r="60.0000958741138" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(454 -74.5)" fill="white">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x=".9804688" y="15">Implement a </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x="16.101562" y="34">DevOps </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="white" x=".9765625" y="53">environment</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <rect x="375" y="64.5" width="250" height="75" fill="#d9edf7"/>
+        <rect x="375" y="64.5" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(380 73.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="5.035156" y="15">Install the </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="15">cmp-platform</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="15"> Helm </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="19.9375" y="34">chart, and then wait until the </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="59.51953" y="53">deployment is up</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <rect x="375" y="191.5625" width="250" height="75" fill="#d9edf7"/>
+        <rect x="375" y="191.5625" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(380 219.5625)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="23.503906" y="15">Verify the deployment is up</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <rect x="375" y="318.625" width="250" height="75" fill="#d9edf7"/>
+        <rect x="375" y="318.625" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(380 327.625)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="24.398438" y="15">Configure the </tspan>
+          <tspan font-family="Courier" font-size="16" font-weight="400" fill="black" y="15">hosts</tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" y="15"> file to </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="8.835938" y="34">enable access to AM, IDM, and </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="111.55469" y="53">IG</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <rect x="373" y="446.25" width="250" height="75" fill="#d9edf7"/>
+        <rect x="373" y="446.25" width="250" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(378 464.75)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="6.1875" y="15">Access AM console, IDM Admin </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="26.171875" y="34">UI, and IG Studio as a test</tspan>
+        </text>
+      </g>
+      <g id="Line_8">
+        <line x1="500" y1="266.5625" x2="500" y2="308.725" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_7">
+        <line x1="498" y1="395.25" x2="498" y2="436.35" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_6">
+        <path d="M 412.5 573.875 L 587.5 573.875 C 608.2 573.875 625 590.675 625 611.375 C 625 632.075 608.2 648.875 587.5 648.875 L 412.5 648.875 C 391.8 648.875 375 632.075 375 611.375 C 375 590.675 391.8 573.875 412.5 573.875 Z" fill="#d8fce9"/>
+        <path d="M 412.5 573.875 L 587.5 573.875 C 608.2 573.875 625 590.675 625 611.375 C 625 632.075 608.2 648.875 587.5 648.875 L 412.5 648.875 C 391.8 648.875 375 632.075 375 611.375 C 375 590.675 391.8 573.875 412.5 573.875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(405 592.375)" fill="black">
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="24.734375" y="15">I am able to use the </tspan>
+          <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x="32.753906" y="34">DevOps Example</tspan>
+        </text>
+      </g>
+      <g id="Line_5">
+        <line x1="498.58766" y1="521.25" x2="499.2572" y2="563.9762" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_4">
+        <line x1="500" y1="139.5" x2="500" y2="181.6625" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_3">
+        <line x1="499.4054" y1="13.998669" x2="499.67973" y2="54.600226" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
